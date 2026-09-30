@@ -7,14 +7,14 @@
 /// The AdMob *App ID* is set separately, in Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings
 /// (Assets > Google Mobile Ads > Settings), because the plugin writes it into the Android manifest.
 ///
-/// The values below are TEST values: RevenueCat's Test Store key and Google's official public
-/// test rewarded ad unit. To ship with your own, replace them (see README "Build instructions").
+/// The ad values below are TEST values (Google's official public test rewarded unit); the RevenueCat
+/// key is the public Google Play app key (a Test Store "test_" key is refused by the SDK in release builds).
 /// </summary>
 public static class ShipatonConfig
 {
     /// <summary>RevenueCat public SDK key (Project settings > API keys). "test_..." = Test Store,
     /// "goog_..." = Google Play app. Public by design; placeholder: YOUR_REVENUECAT_PUBLIC_KEY.</summary>
-    public const string RevenueCatPublicApiKey = "test_PeYnKkOYPIbCDYBmzOpiNrZAJzF";
+    public const string RevenueCatPublicApiKey = "goog_VGIplfkYnHfFQGSlQfbPjnBrRwf";
 
     /// <summary>AdMob rewarded ad unit. Google's official test unit; placeholder: YOUR_REWARDED_AD_UNIT_ID.</summary>
     public const string RewardedAdUnitId = "ca-app-pub-3940256099942544/5224354917";

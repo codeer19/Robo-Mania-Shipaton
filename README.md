@@ -89,6 +89,22 @@ Mobile Ads callbacks:
 
 Placements are stable names per feature: `daily_coins_rewarded`, `mission_double_rewarded`.
 
+**Verified on a real device** (Vivo V2420, Android 16, arm64), from logcat:
+
+```
+[SHIPATON] RevenueCat configured
+[SHIPATON] RevenueCat ready; appUserId=$RCAnonymousID:...
+[SHIPATON] AdMob initialized
+[SHIPATON] rewarded loaded network=AdMob
+[SHIPATON] RevenueCat AdTracker loaded
+[SHIPATON] show rewarded placement=daily_coins_rewarded
+[SHIPATON] RevenueCat AdTracker displayed
+[SHIPATON] RevenueCat AdTracker opened
+[SHIPATON] RevenueCat AdTracker revenue micros=0 USD precision=Unknown   (Google test ads report 0 revenue)
+[SHIPATON] reward earned 10 coins
+[SHIPATON] rewarded finished success=True placement=daily_coins_rewarded   (once)
+```
+
 ### Impression-level ad revenue
 
 `TrackAdRevenue` is driven by AdMob's **paid event** (`OnAdPaid`), i.e. impression-level ad revenue
@@ -146,9 +162,10 @@ Version: **1.0.0-shipaton** (Android versionCode 100).
 4. **Photon**: set your own Photon Fusion App ID in
    `Assets/Photon/Fusion/Resources/PhotonAppSettings.asset` (`AppIdFusion`). The public repo ships
    the placeholder `YOUR_PHOTON_FUSION_APP_ID`.
-5. **RevenueCat**: put your RevenueCat **public** SDK key in `ShipatonConfig.RevenueCatPublicApiKey`
-   (`goog_...` for a Google Play app, or `test_...` for RevenueCat's Test Store). The repo contains a
-   RevenueCat **Test Store** public key. Never put a RevenueCat *secret* key in the app.
+5. **RevenueCat**: put your RevenueCat **public** SDK key in `ShipatonConfig.RevenueCatPublicApiKey`.
+   Use a **Google Play app key (`goog_...`)**: the RevenueCat SDK refuses a Test Store key
+   (`test_...`) in release builds and closes the app. The repo contains this project's public
+   Google Play app key (public by design). Never put a RevenueCat *secret* key in the app.
 6. **AdMob**: set your AdMob **App ID** in *Assets → Google Mobile Ads → Settings* and your rewarded
    ad unit in `ShipatonConfig.RewardedAdUnitId`. The repo uses **Google's official test IDs**
    (App ID `ca-app-pub-3940256099942544~3347511713`, rewarded unit `ca-app-pub-3940256099942544/5224354917`).
@@ -160,6 +177,10 @@ Version: **1.0.0-shipaton** (Android versionCode 100).
    `ROBOMANIA_KEYSTORE`, `ROBOMANIA_KEYSTORE_PASS`, `ROBOMANIA_KEY_ALIAS`, `ROBOMANIA_KEY_PASS`).
    No keystore or password is in this repository.
 9. **Build** the APK (ARM64, IL2CPP).
+
+Android notes: Vulkan pre-transform is disabled (it mis-presented the landscape frame on some
+MediaTek devices), and the app icon is the Robo Mania key art (`Assets/_RobotDeckRoyale/Art/Icons`,
+applied by `ShipatonIcons.Apply`).
 
 Verify at runtime with `adb logcat -s Unity`; every monetization event logs with the `[SHIPATON]`
 prefix (`RevenueCat configured`, `RevenueCat ready`, `AdMob initialized`, `rewarded loaded`,

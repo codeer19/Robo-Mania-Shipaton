@@ -236,7 +236,7 @@ public sealed class ShipatonMonetization : MonoBehaviour
 
     private static string Network(RewardedAd ad)
     {
-        try { return ad?.GetResponseInfo()?.GetLoadedAdapterResponseInfo()?.AdSourceName ?? "AdMob"; } catch { return "AdMob"; }
+        try { var n = ad?.GetResponseInfo()?.GetLoadedAdapterResponseInfo()?.AdSourceName; return string.IsNullOrEmpty(n) ? "AdMob" : n; } catch { return "AdMob"; }
     }
 
     private static AdTracker.Precision PrecisionOf(AdValue value)
