@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e408c1f54ac60784e928193ccd51275f, type: 3}
+  m_Name: FrontendAssets
+  m_EditorClassIdentifier: Assembly-CSharp::FrontendAssets
+  RobotVisual: {fileID: 3519433691840213251, guid: 677b9f49f6e136e41b62e9520bea27d8, type: 3}
+  Arena: {fileID: 8051101103134408100, guid: 0048211850b43d44187a1fb5fea3bef7, type: 3}
+  LoadingArtwork: {fileID: 2800000, guid: cea562c17a77fb5438592953ae91018b, type: 3}
+  Skins:
+  - Id: skin_core
+    Source: {fileID: 919132149155446097, guid: 38c71c52e10cd3d4b8bf474a89c017cc, type: 3}
+    Thumbnail: {fileID: 2800000, guid: d2f343ff498b5224fbe0d037afe5e3d1, type: 3}
+    HiddenRenderers:
+    - Spark_Eye_Highlight
+  - Id: spark_robo_ranger
+    Source: {fileID: 919132149155446097, guid: 7f1bc6df36d3f4e4796e8aba0225647a, type: 3}
+    Thumbnail: {fileID: 2800000, guid: 9dd64792894d76146a9fdce833671013, type: 3}
+    HiddenRenderers:
+    - Spark_Eye
+    - Spark_Eye_Highlight
+    - Spark_Eye_IdleChevron
+  - Id: spark_space_explorer
+    Source: {fileID: 919132149155446097, guid: db5ea1033289772428c773730b3fb2d3, type: 3}
+    Thumbnail: {fileID: 2800000, guid: 660b44dcd2dd1744a81ef4ee3f8daea8, type: 3}
+    HiddenRenderers:
+    - Spark_Eye
+    - Spark_Eye_Highlight
+    - Spark_Eye_IdleChevron
+  - Id: spark_ninja
+    Source: {fileID: 919132149155446097, guid: e55215132118efe4dba45e239e54895b, type: 3}
+    Thumbnail: {fileID: 2800000, guid: b950c987e6093fe4dab9ea12891051a7, type: 3}
+    HiddenRenderers:
+    - Spark_Eye
+    - Spark_Eye_Highlight
+    - Spark_Eye_IdleChevron
+  - Id: spark_king
+    Source: {fileID: 919132149155446097, guid: a3d9feff747c0574d8a721e8b3035181, type: 3}
+    Thumbnail: {fileID: 2800000, guid: 3a75cce34e246ee45a7a70789a5ab398, type: 3}
+    HiddenRenderers:
+    - Spark_Eye
+    - Spark_Eye_Highlight
+    - Spark_Eye_IdleChevron

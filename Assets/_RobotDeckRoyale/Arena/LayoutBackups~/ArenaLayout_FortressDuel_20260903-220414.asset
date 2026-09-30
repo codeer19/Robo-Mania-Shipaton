@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8e7ca95fc6ba14fa37533946e9b2b3, type: 3}
+  m_Name: ArenaLayout_FortressDuel
+  m_EditorClassIdentifier: Assembly-CSharp::ArenaLayoutDefinition
+  playableHalfExtents: {x: 25, y: 35}
+  floorTopHeight: 0.341
+  maximumPropHeight: 3.7
+  minimumRouteWidth: 2.4
+  pieces:
+  - id: Cover_CentrePocket_W
+    prefab: {fileID: 3356458186824936125, guid: 80012cbfac1333543ba3c9cc16bc935a, type: 3}
+    position: {x: -5, y: 1.1, z: -6}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Cover_CentrePocket_E
+    prefab: {fileID: 3356458186824936125, guid: 80012cbfac1333543ba3c9cc16bc935a, type: 3}
+    position: {x: 5, y: 1.1, z: -6}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Sep_Lane_W
+    prefab: {fileID: 3356458186824936125, guid: 80012cbfac1333543ba3c9cc16bc935a, type: 3}
+    position: {x: -12.5, y: 1.1, z: -14}
+    rotation: {x: 0, y: 90, z: 0}
+    scale: {x: 1.75, y: 1, z: 1}
+    role: 2
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Sep_Lane_E
+    prefab: {fileID: 3356458186824936125, guid: 80012cbfac1333543ba3c9cc16bc935a, type: 3}
+    position: {x: 12.5, y: 1.1, z: -14}
+    rotation: {x: 0, y: 90, z: 0}
+    scale: {x: 1.75, y: 1, z: 1}
+    role: 2
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Cover_SpawnApproach_W
+    prefab: {fileID: 3356458186824936125, guid: 80012cbfac1333543ba3c9cc16bc935a, type: 3}
+    position: {x: -6, y: 1.1, z: -21}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Cover_SpawnApproach_E
+    prefab: {fileID: 3356458186824936125, guid: 80012cbfac1333543ba3c9cc16bc935a, type: 3}
+    position: {x: 6, y: 1.1, z: -21}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: FlankWall_W
+    prefab: {fileID: 7613704284875579398, guid: 2b3cdd0ea713b0a4d81875394bbd2f4c, type: 3}
+    position: {x: -19, y: 0.4, z: -19}
+    rotation: {x: 0, y: 90, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 2
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: FlankWall_E
+    prefab: {fileID: 7613704284875579398, guid: 2b3cdd0ea713b0a4d81875394bbd2f4c, type: 3}
+    position: {x: 19, y: 0.4, z: -19}
+    rotation: {x: 0, y: 90, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 2
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Machine_Flank_E
+    prefab: {fileID: 697392730829774695, guid: fcfd42704d6e66c45bb706eb910b077a, type: 3}
+    position: {x: 19, y: 2.14, z: -8}
+    rotation: {x: 0, y: 180, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 3
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Machine_Flank_W
+    prefab: {fileID: 697392730829774695, guid: fcfd42704d6e66c45bb706eb910b077a, type: 3}
+    position: {x: -19, y: 2.14, z: -8}
+    rotation: {x: 0, y: 180, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 3
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Landmark_Objective
+    prefab: {fileID: 2509023141738590423, guid: 2d66faf8bb7446840bb1f306faebb6cd, type: 3}
+    position: {x: 0, y: 0.396, z: 0}
+    rotation: {x: 270, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Landmark_SpawnPad
+    prefab: {fileID: 2509023141738590423, guid: 2d66faf8bb7446840bb1f306faebb6cd, type: 3}
+    position: {x: 0, y: 0.396, z: -25}
+    rotation: {x: 270, y: 0, z: 0}
+    scale: {x: 0.7368, y: 0.7368, z: 1}
+    role: 5
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1

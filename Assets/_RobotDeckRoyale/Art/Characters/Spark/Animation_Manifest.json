@@ -1,0 +1,64 @@
+{
+  "fps": 50,
+  "clips": {
+    "Attack_Missile": {
+      "frames": [
+        1,
+        31
+      ],
+      "seconds": 0.6,
+      "root_motion": false
+    },
+    "Move_Forward": {
+      "frames": [
+        1,
+        51
+      ],
+      "seconds": 1.0,
+      "root_motion": true
+    },
+    "Move_Backward": {
+      "frames": [
+        1,
+        51
+      ],
+      "seconds": 1.0,
+      "root_motion": true
+    },
+    "Turn_Left": {
+      "frames": [
+        1,
+        51
+      ],
+      "seconds": 1.0,
+      "root_motion": true
+    },
+    "Turn_Right": {
+      "frames": [
+        1,
+        51
+      ],
+      "seconds": 1.0,
+      "root_motion": true
+    }
+  },
+  "events": [
+    {
+      "clip": "Attack_Missile",
+      "seconds": 0.26,
+      "event": "Fire_Missile",
+      "socket": "Missile_Muzzle",
+      "socket_forward_axis": "+Z",
+      "projectile": "Spark_Missile",
+      "projectile_uniform_scale": 0.56
+    }
+  ],
+  "locomotion": {
+    "wheel_radius_m": 0.25,
+    "track_width_m": 1.18,
+    "forward_speed_m_s": 1.5707963268,
+    "turn_rate_degrees_s": 90,
+    "root_motion": true
+  },
+  "preview_projectile_is_excluded_from_character_FBX": true
+}

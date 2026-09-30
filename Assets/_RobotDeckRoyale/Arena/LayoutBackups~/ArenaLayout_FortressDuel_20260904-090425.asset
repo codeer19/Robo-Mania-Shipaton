@@ -1,0 +1,547 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8e7ca95fc6ba14fa37533946e9b2b3, type: 3}
+  m_Name: ArenaLayout_FortressDuel
+  m_EditorClassIdentifier: Assembly-CSharp::ArenaLayoutDefinition
+  playableHalfExtents: {x: 25, y: 35}
+  floorTopHeight: 0.341
+  maximumPropHeight: 3.7
+  minimumRouteWidth: 4
+  pieces:
+  - id: Wall_r0c2
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: -17.5, y: 0, z: -35}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Wall_r0c3
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: -14, y: 0, z: -35}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Wall_r0c11
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: 14, y: 0, z: -35}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Wall_r0c12
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: 17.5, y: 0, z: -35}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: LowCover_r1c1
+    prefab: {fileID: 7720019034809083098, guid: 0ac188e7e6b1f4944bba26c576f4d080, type: 3}
+    position: {x: -21, y: 0, z: -31.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 1
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: LowCover_r1c13
+    prefab: {fileID: 7720019034809083098, guid: 0ac188e7e6b1f4944bba26c576f4d080, type: 3}
+    position: {x: 21, y: 0, z: -31.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 1
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Wall_r2c0
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: -24.5, y: 0, z: -28}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Wall_r2c14
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: 24.5, y: 0, z: -28}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Wall_r3c0
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: -24.5, y: 0, z: -24.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: LowCover_r3c3
+    prefab: {fileID: 7720019034809083098, guid: 0ac188e7e6b1f4944bba26c576f4d080, type: 3}
+    position: {x: -14, y: 0, z: -24.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 1
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: LowCover_r3c11
+    prefab: {fileID: 7720019034809083098, guid: 0ac188e7e6b1f4944bba26c576f4d080, type: 3}
+    position: {x: 14, y: 0, z: -24.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 1
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Wall_r3c14
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: 24.5, y: 0, z: -24.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Vent_r4c7
+    prefab: {fileID: 6322086710135020108, guid: fa1b15f0aa2cd9f46b9a37d3b08aaf02, type: 3}
+    position: {x: 0, y: 0, z: -21}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 5
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Wall_r5c1
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: -21, y: 0, z: -17.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Wall_r5c2
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: -17.5, y: 0, z: -17.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Crate_r5c6
+    prefab: {fileID: 9182466653109716307, guid: fd998424134a3c542b837fa4657275a0, type: 3}
+    position: {x: -3.5, y: 0, z: -17.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 1
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Wall_r5c7
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: 0, y: 0, z: -17.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Crate_r5c8
+    prefab: {fileID: 9182466653109716307, guid: fd998424134a3c542b837fa4657275a0, type: 3}
+    position: {x: 3.5, y: 0, z: -17.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 1
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Wall_r5c12
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: 17.5, y: 0, z: -17.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Wall_r5c13
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: 21, y: 0, z: -17.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Crate_r7c0
+    prefab: {fileID: 9182466653109716307, guid: fd998424134a3c542b837fa4657275a0, type: 3}
+    position: {x: -24.5, y: 0, z: -10.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 1
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Wall_r7c3
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: -14, y: 0, z: -10.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Vent_r7c5
+    prefab: {fileID: 6322086710135020108, guid: fa1b15f0aa2cd9f46b9a37d3b08aaf02, type: 3}
+    position: {x: -7, y: 0, z: -10.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 5
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Vent_r7c9
+    prefab: {fileID: 6322086710135020108, guid: fa1b15f0aa2cd9f46b9a37d3b08aaf02, type: 3}
+    position: {x: 7, y: 0, z: -10.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 5
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Wall_r7c11
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: 14, y: 0, z: -10.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Crate_r7c14
+    prefab: {fileID: 9182466653109716307, guid: fd998424134a3c542b837fa4657275a0, type: 3}
+    position: {x: 24.5, y: 0, z: -10.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 1
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Crate_r8c2
+    prefab: {fileID: 9182466653109716307, guid: fd998424134a3c542b837fa4657275a0, type: 3}
+    position: {x: -17.5, y: 0, z: -7}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 1
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Crate_r8c3
+    prefab: {fileID: 9182466653109716307, guid: fd998424134a3c542b837fa4657275a0, type: 3}
+    position: {x: -14, y: 0, z: -7}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 1
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Wall_r8c6
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: -3.5, y: 0, z: -7}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Wall_r8c8
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: 3.5, y: 0, z: -7}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Crate_r8c11
+    prefab: {fileID: 9182466653109716307, guid: fd998424134a3c542b837fa4657275a0, type: 3}
+    position: {x: 14, y: 0, z: -7}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 1
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Crate_r8c12
+    prefab: {fileID: 9182466653109716307, guid: fd998424134a3c542b837fa4657275a0, type: 3}
+    position: {x: 17.5, y: 0, z: -7}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 1
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Wall_r9c1
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: -21, y: 0, z: -3.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Vent_r9c4
+    prefab: {fileID: 6322086710135020108, guid: fa1b15f0aa2cd9f46b9a37d3b08aaf02, type: 3}
+    position: {x: -10.5, y: 0, z: -3.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 5
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Crate_r9c7
+    prefab: {fileID: 9182466653109716307, guid: fd998424134a3c542b837fa4657275a0, type: 3}
+    position: {x: 0, y: 0, z: -3.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 1
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Vent_r9c10
+    prefab: {fileID: 6322086710135020108, guid: fa1b15f0aa2cd9f46b9a37d3b08aaf02, type: 3}
+    position: {x: 10.5, y: 0, z: -3.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 5
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Wall_r9c13
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: 21, y: 0, z: -3.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Wall_CentreFlank
+    prefab: {fileID: 5157089387404439307, guid: 1cdfea2176b0dd14c898661669100d2c, type: 3}
+    position: {x: -24.5, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 0
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Press_Floor
+    prefab: {fileID: 4884727263843883343, guid: 271bf765c26ea7343ab24b6daf5f24b6, type: 3}
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 2.5, y: 0.4, z: 2.5}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Press_Support
+    prefab: {fileID: 2794125575828925000, guid: 894874b5fd7093346afc17c07a60ab3a, type: 3}
+    position: {x: -7, y: 0, z: -7}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 3
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Bay_Floor
+    prefab: {fileID: 4884727263843883343, guid: 271bf765c26ea7343ab24b6daf5f24b6, type: 3}
+    position: {x: 0, y: 0, z: -29.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 2.2, y: 0.4, z: 1}
+    role: 5
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: Bay_Assembler
+    prefab: {fileID: 697392730829774695, guid: fcfd42704d6e66c45bb706eb910b077a, type: 3}
+    position: {x: -10.5, y: 0, z: -31.5}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 1, z: 1}
+    role: 3
+    mirrorToOppositeHalf: 1
+    groundToFloor: 1
+  - id: DeployPad_Blue
+    prefab: {fileID: 7466430874605055738, guid: 70cc7726c04bd8e4b83087b7845e6bf5, type: 3}
+    position: {x: 0, y: 0, z: -25}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 0.3, z: 1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: DeployPad_Red
+    prefab: {fileID: 4895414277647621475, guid: 6ca2e40f7920a3542addcabbbb656395, type: 3}
+    position: {x: 0, y: 0, z: 25}
+    rotation: {x: 0, y: 0, z: 0}
+    scale: {x: 1, y: 0.3, z: 1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Blue_0
+    prefab: {fileID: 8284682258102410381, guid: 47dc044ec81b47c458da1c363f9d0115, type: 3}
+    position: {x: -22, y: 0, z: -13}
+    rotation: {x: 0, y: 15.939307, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Blue_1
+    prefab: {fileID: 8284682258102410381, guid: 47dc044ec81b47c458da1c363f9d0115, type: 3}
+    position: {x: -17.6, y: 0, z: -11.763932}
+    rotation: {x: 0, y: 15.196111, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Blue_2
+    prefab: {fileID: 8284682258102410381, guid: 47dc044ec81b47c458da1c363f9d0115, type: 3}
+    position: {x: -13.2, y: 0, z: -10.648859}
+    rotation: {x: 0, y: 13.010146, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Blue_3
+    prefab: {fileID: 8284682258102410381, guid: 47dc044ec81b47c458da1c363f9d0115, type: 3}
+    position: {x: -8.799999, y: 0, z: -9.763931}
+    rotation: {x: 0, y: 9.529451, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Blue_4
+    prefab: {fileID: 8284682258102410381, guid: 47dc044ec81b47c458da1c363f9d0115, type: 3}
+    position: {x: -4.3999996, y: 0, z: -9.195774}
+    rotation: {x: 0, y: 5.043574, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Blue_5
+    prefab: {fileID: 8284682258102410381, guid: 47dc044ec81b47c458da1c363f9d0115, type: 3}
+    position: {x: 0, y: 0, z: -9}
+    rotation: {x: 0, y: -0.0000007152773, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Blue_6
+    prefab: {fileID: 8284682258102410381, guid: 47dc044ec81b47c458da1c363f9d0115, type: 3}
+    position: {x: 4.400001, y: 0, z: -9.195774}
+    rotation: {x: 0, y: -5.0435767, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Blue_7
+    prefab: {fileID: 8284682258102410381, guid: 47dc044ec81b47c458da1c363f9d0115, type: 3}
+    position: {x: 8.799999, y: 0, z: -9.763932}
+    rotation: {x: 0, y: -9.529451, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Blue_8
+    prefab: {fileID: 8284682258102410381, guid: 47dc044ec81b47c458da1c363f9d0115, type: 3}
+    position: {x: 13.200001, y: 0, z: -10.648859}
+    rotation: {x: 0, y: -13.010147, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Blue_9
+    prefab: {fileID: 8284682258102410381, guid: 47dc044ec81b47c458da1c363f9d0115, type: 3}
+    position: {x: 17.599998, y: 0, z: -11.763932}
+    rotation: {x: 0, y: -15.196111, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Blue_10
+    prefab: {fileID: 8284682258102410381, guid: 47dc044ec81b47c458da1c363f9d0115, type: 3}
+    position: {x: 22, y: 0, z: -13}
+    rotation: {x: 0, y: -15.939307, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Red_0
+    prefab: {fileID: 6744733388142990765, guid: 8fc9ddba90dea7c4eb02e911ebcec798, type: 3}
+    position: {x: -22, y: 0, z: 13}
+    rotation: {x: 0, y: -15.939307, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Red_1
+    prefab: {fileID: 6744733388142990765, guid: 8fc9ddba90dea7c4eb02e911ebcec798, type: 3}
+    position: {x: -17.6, y: 0, z: 11.763932}
+    rotation: {x: 0, y: -15.196111, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Red_2
+    prefab: {fileID: 6744733388142990765, guid: 8fc9ddba90dea7c4eb02e911ebcec798, type: 3}
+    position: {x: -13.2, y: 0, z: 10.648859}
+    rotation: {x: 0, y: -13.010146, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Red_3
+    prefab: {fileID: 6744733388142990765, guid: 8fc9ddba90dea7c4eb02e911ebcec798, type: 3}
+    position: {x: -8.799999, y: 0, z: 9.763931}
+    rotation: {x: 0, y: -9.529451, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Red_4
+    prefab: {fileID: 6744733388142990765, guid: 8fc9ddba90dea7c4eb02e911ebcec798, type: 3}
+    position: {x: -4.3999996, y: 0, z: 9.195774}
+    rotation: {x: 0, y: -5.043574, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Red_5
+    prefab: {fileID: 6744733388142990765, guid: 8fc9ddba90dea7c4eb02e911ebcec798, type: 3}
+    position: {x: 0, y: 0, z: 9}
+    rotation: {x: 0, y: 0.0000007152773, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Red_6
+    prefab: {fileID: 6744733388142990765, guid: 8fc9ddba90dea7c4eb02e911ebcec798, type: 3}
+    position: {x: 4.400001, y: 0, z: 9.195774}
+    rotation: {x: 0, y: 5.0435767, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Red_7
+    prefab: {fileID: 6744733388142990765, guid: 8fc9ddba90dea7c4eb02e911ebcec798, type: 3}
+    position: {x: 8.799999, y: 0, z: 9.763932}
+    rotation: {x: 0, y: 9.529451, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Red_8
+    prefab: {fileID: 6744733388142990765, guid: 8fc9ddba90dea7c4eb02e911ebcec798, type: 3}
+    position: {x: 13.200001, y: 0, z: 10.648859}
+    rotation: {x: 0, y: 13.010147, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Red_9
+    prefab: {fileID: 6744733388142990765, guid: 8fc9ddba90dea7c4eb02e911ebcec798, type: 3}
+    position: {x: 17.599998, y: 0, z: 11.763932}
+    rotation: {x: 0, y: 15.196111, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1
+  - id: Territory_Red_10
+    prefab: {fileID: 6744733388142990765, guid: 8fc9ddba90dea7c4eb02e911ebcec798, type: 3}
+    position: {x: 22, y: 0, z: 13}
+    rotation: {x: 0, y: 15.939307, z: 0}
+    scale: {x: 0.42, y: 0.12, z: 0.1}
+    role: 5
+    mirrorToOppositeHalf: 0
+    groundToFloor: 1

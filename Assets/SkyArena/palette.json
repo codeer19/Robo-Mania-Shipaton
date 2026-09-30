@@ -1,0 +1,60 @@
+{
+  "colors": [
+    {
+      "name": "MAT_Floor_Cream",
+      "hex": "#EACAAC"
+    },
+    {
+      "name": "MAT_Blue_Main",
+      "hex": "#3670E4"
+    },
+    {
+      "name": "MAT_Blue_Dark",
+      "hex": "#1C459B"
+    },
+    {
+      "name": "MAT_Yellow_Accent",
+      "hex": "#FEC541"
+    },
+    {
+      "name": "MAT_White_Panel",
+      "hex": "#FEFAF4"
+    },
+    {
+      "name": "MAT_Gray_Mechanical",
+      "hex": "#526597"
+    },
+    {
+      "name": "MAT_Rock_Orange",
+      "hex": "#EC8055"
+    },
+    {
+      "name": "MAT_Green_Foliage",
+      "hex": "#4A8E34"
+    },
+    {
+      "name": "MAT_Warm_Light",
+      "hex": "#FFDD4F"
+    },
+    {
+      "name": "MAT_Floor_Inlay",
+      "hex": "#CBB7AE"
+    },
+    {
+      "name": "MAT_Green_Light",
+      "hex": "#7BC647"
+    },
+    {
+      "name": "MAT_Green_Dark",
+      "hex": "#196335"
+    },
+    {
+      "name": "MAT_Orange_Accent",
+      "hex": "#F8713F"
+    },
+    {
+      "name": "MAT_Blue_Panel",
+      "hex": "#7898C2"
+    }
+  ]
+}

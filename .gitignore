@@ -1,0 +1,63 @@
+# ---- Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/Assets/Plugins/Editor/JetBrains*
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+crashlytics-build.properties
+/Assets/StreamingAssets/aa*
+*_BurstDebugInformation_DoNotShip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# ---- Build outputs
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.symbols.zip
+
+# ---- Android signing / secrets (never commit)
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+keystore-credentials.properties
+google-services.json
+service-account*.json
+.env
+.env.*
+
+# ---- Gradle / Android intermediates
+.gradle/
+/Assets/Plugins/Android/*.androidlib/build/
+/Assets/Plugins/Android/**/build/
+
+# ---- IDE
+.vs/
+.vscode/
+.idea/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.booproj
+*.svd
+
+# ---- OS
+.DS_Store
+Thumbs.db
+Desktop.ini

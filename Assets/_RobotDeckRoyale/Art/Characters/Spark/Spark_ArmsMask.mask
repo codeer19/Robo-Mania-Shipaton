@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Spark_ArmsMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: Spark_Arm_L
+    m_Weight: 1
+  - m_Path: Spark_Arm_R
+    m_Weight: 1
+  - m_Path: Spark_BezelTopTab
+    m_Weight: 0
+  - m_Path: Spark_Body
+    m_Weight: 0
+  - m_Path: Spark_ChinLight
+    m_Weight: 0
+  - m_Path: Spark_ChinShell
+    m_Weight: 0
+  - m_Path: Spark_Claw_L_Lower
+    m_Weight: 0
+  - m_Path: Spark_Claw_L_Thumb
+    m_Weight: 0
+  - m_Path: Spark_Claw_L_Upper
+    m_Weight: 0
+  - m_Path: Spark_Claw_R_Lower
+    m_Weight: 0
+  - m_Path: Spark_Claw_R_Thumb
+    m_Weight: 0
+  - m_Path: Spark_Claw_R_Upper
+    m_Weight: 0
+  - m_Path: Spark_CrownGraphic
+    m_Weight: 0
+  - m_Path: Spark_Eye
+    m_Weight: 0
+  - m_Path: Spark_Eye_Highlight
+    m_Weight: 0
+  - m_Path: Spark_Eye_IdleChevron
+    m_Weight: 0
+  - m_Path: Spark_FaceBezel
+    m_Weight: 0
+  - m_Path: Spark_FaceScreen
+    m_Weight: 0
+  - m_Path: Spark_FaceShellTransition
+    m_Weight: 0
+  - m_Path: Spark_FinLight
+    m_Weight: 0
+  - m_Path: Spark_Forearm_L
+    m_Weight: 0
+  - m_Path: Spark_Forearm_R
+    m_Weight: 0
+  - m_Path: Spark_FrontRunningLight_L
+    m_Weight: 0
+  - m_Path: Spark_FrontRunningLight_R
+    m_Weight: 0
+  - m_Path: Spark_LauncherSocket
+    m_Weight: 0
+  - m_Path: Spark_MintX
+    m_Weight: 0
+  - m_Path: Spark_PalmBarrel_R
+    m_Weight: 0
+  - m_Path: Spark_PinkShellArc_L
+    m_Weight: 0
+  - m_Path: Spark_PinkShellArc_R
+    m_Weight: 0
+  - m_Path: Spark_RearLatchInset
+    m_Weight: 0
+  - m_Path: Spark_RearPanel
+    m_Weight: 0
+  - m_Path: Spark_RearPinkLatch
+    m_Weight: 0
+  - m_Path: Spark_Rig
+    m_Weight: 0
+  - m_Path: Spark_Rig/Root
+    m_Weight: 0
+  - m_Path: Spark_Rig/Root/Body
+    m_Weight: 0
+  - m_Path: Spark_Rig/Root/Body/Arm_L
+    m_Weight: 1
+  - m_Path: Spark_Rig/Root/Body/Arm_L/Forearm_L
+    m_Weight: 1
+  - m_Path: Spark_Rig/Root/Body/Arm_L/Forearm_L/Wrist_L
+    m_Weight: 1
+  - m_Path: Spark_Rig/Root/Body/Arm_L/Forearm_L/Wrist_L/Claw_L_Lower
+    m_Weight: 1
+  - m_Path: Spark_Rig/Root/Body/Arm_L/Forearm_L/Wrist_L/Claw_L_Thumb
+    m_Weight: 1
+  - m_Path: Spark_Rig/Root/Body/Arm_L/Forearm_L/Wrist_L/Claw_L_Upper
+    m_Weight: 1
+  - m_Path: Spark_Rig/Root/Body/Arm_R
+    m_Weight: 1
+  - m_Path: Spark_Rig/Root/Body/Arm_R/Forearm_R
+    m_Weight: 1
+  - m_Path: Spark_Rig/Root/Body/Arm_R/Forearm_R/Wrist_R
+    m_Weight: 1
+  - m_Path: Spark_Rig/Root/Body/Arm_R/Forearm_R/Wrist_R/Claw_R_Lower
+    m_Weight: 1
+  - m_Path: Spark_Rig/Root/Body/Arm_R/Forearm_R/Wrist_R/Claw_R_Thumb
+    m_Weight: 1
+  - m_Path: Spark_Rig/Root/Body/Arm_R/Forearm_R/Wrist_R/Claw_R_Upper
+    m_Weight: 1
+  - m_Path: Spark_Rig/Root/Body/Arm_R/Forearm_R/Wrist_R/Muzzle_R
+    m_Weight: 1
+  - m_Path: Spark_Rig/Root/Body/Arm_R/Forearm_R/Wrist_R/Muzzle_R/Missile_Muzzle
+    m_Weight: 1
+  - m_Path: Spark_Rig/Root/Body/FaceScreen
+    m_Weight: 0
+  - m_Path: Spark_Rig/Root/Body/FaceScreen/Eye
+    m_Weight: 0
+  - m_Path: Spark_Rig/Root/Body/TopFin
+    m_Weight: 0
+  - m_Path: Spark_Rig/Root/Wheel_L
+    m_Weight: 0
+  - m_Path: Spark_Rig/Root/Wheel_R
+    m_Weight: 0
+  - m_Path: Spark_Rig/Root/WheelStrut_L
+    m_Weight: 0
+  - m_Path: Spark_Rig/Root/WheelStrut_R
+    m_Weight: 0
+  - m_Path: Spark_Shoulder_L
+    m_Weight: 0
+  - m_Path: Spark_Shoulder_R
+    m_Weight: 0
+  - m_Path: Spark_TopLauncher
+    m_Weight: 0
+  - m_Path: Spark_UndersideLight
+    m_Weight: 0
+  - m_Path: Spark_Wheel_L
+    m_Weight: 0
+  - m_Path: Spark_Wheel_R
+    m_Weight: 0
+  - m_Path: Spark_WheelStrut_L
+    m_Weight: 0
+  - m_Path: Spark_WheelStrut_R
+    m_Weight: 0
+  - m_Path: Spark_Wrist_L
+    m_Weight: 0
+  - m_Path: Spark_Wrist_R
+    m_Weight: 0

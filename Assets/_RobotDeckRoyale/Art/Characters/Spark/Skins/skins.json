@@ -1,0 +1,482 @@
+{
+  "skins": [
+    {
+      "name": "default",
+      "materials": [
+        {
+          "name": "MAT_Spark_Default_Shell",
+          "color": [
+            0.8549926280975342,
+            0.8069522380828857,
+            0.7304607629776001,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.5099999904632568,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_Default_Mechanics",
+          "color": [
+            0.03433980792760849,
+            0.03189603239297867,
+            0.04373503103852272,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.6000000238418579,
+          "texture": ""
+        },
+        {
+          "name": "EYE_Default",
+          "color": [
+            1.0,
+            0.4507857859134674,
+            0.024157632142305374,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.3799999952316284,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_Default_Lights",
+          "color": [
+            1.0,
+            0.4507857859134674,
+            0.024157632142305374,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.3799999952316284,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_Default_Trim",
+          "color": [
+            0.3967552185058594,
+            0.7758222222328186,
+            0.6307571530342102,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.5,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_Default_Screen",
+          "color": [
+            0.014443843625485897,
+            0.011612244881689548,
+            0.016807375475764275,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.23000000417232513,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_Default_Accent",
+          "color": [
+            0.8148465752601624,
+            0.04817182570695877,
+            0.23074005544185638,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.47999998927116394,
+          "texture": ""
+        }
+      ],
+      "hidden": []
+    },
+    {
+      "name": "robo_ranger",
+      "materials": [
+        {
+          "name": "MAT_Spark_Ranger_Trim",
+          "color": [
+            0.4125426113605499,
+            0.040915198624134064,
+            0.03560131415724754,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.5,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_Ranger_Lights",
+          "color": [
+            1.0,
+            0.4125426113605499,
+            0.03688944876194,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.3799999952316284,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_Ranger_Screen",
+          "color": [
+            0.014443843625485897,
+            0.011612244881689548,
+            0.016807375475764275,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.23000000417232513,
+          "texture": ""
+        },
+        {
+          "name": "EYE_Ranger",
+          "color": [
+            1.0,
+            0.4507857859134674,
+            0.024157632142305374,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.3799999952316284,
+          "texture": "EYE_Ranger.png"
+        },
+        {
+          "name": "MAT_Spark_Ranger_Gold",
+          "color": [
+            0.7083757519721985,
+            0.3967552185058594,
+            0.07421357184648514,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.5,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_Ranger_Mechanics",
+          "color": [
+            0.03433980792760849,
+            0.021219009533524513,
+            0.014443843625485897,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.6000000238418579,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_Ranger_Shell",
+          "color": [
+            0.7230551242828369,
+            0.5647115111351013,
+            0.37123769521713257,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.5099999904632568,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_Ranger_Accent",
+          "color": [
+            0.21952620148658752,
+            0.06480326503515244,
+            0.027320891618728638,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.47999998927116394,
+          "texture": ""
+        }
+      ],
+      "hidden": [
+        "Spark_Eye",
+        "Spark_Eye_Highlight",
+        "Spark_Eye_IdleChevron"
+      ]
+    },
+    {
+      "name": "space_explorer",
+      "materials": [
+        {
+          "name": "MAT_Spark_Space_Mechanics",
+          "color": [
+            0.016807375475764275,
+            0.040915198624134064,
+            0.07818742096424103,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.6000000238418579,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_Space_Shell",
+          "color": [
+            0.7991027235984802,
+            0.8549926280975342,
+            0.8879231214523315,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.5099999904632568,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_Space_Accent",
+          "color": [
+            0.00802319310605526,
+            0.2541520893573761,
+            0.637596845626831,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.47999998927116394,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_Space_Lights",
+          "color": [
+            0.10702310502529144,
+            0.7379103899002075,
+            1.0,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.3799999952316284,
+          "texture": ""
+        },
+        {
+          "name": "EYE_Space",
+          "color": [
+            1.0,
+            0.4507857859134674,
+            0.024157632142305374,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.3799999952316284,
+          "texture": "EYE_Space.png"
+        },
+        {
+          "name": "MAT_Spark_Space_Screen",
+          "color": [
+            0.014443843625485897,
+            0.011612244881689548,
+            0.016807375475764275,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.23000000417232513,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_Space_Trim",
+          "color": [
+            0.8796223998069763,
+            0.28744083642959595,
+            0.03560131415724754,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.5,
+          "texture": ""
+        }
+      ],
+      "hidden": [
+        "Spark_Eye",
+        "Spark_Eye_Highlight",
+        "Spark_Eye_IdleChevron"
+      ]
+    },
+    {
+      "name": "ninja",
+      "materials": [
+        {
+          "name": "MAT_Spark_Ninja_Screen",
+          "color": [
+            0.014443843625485897,
+            0.011612244881689548,
+            0.016807375475764275,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.23000000417232513,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_Ninja_Accent",
+          "color": [
+            0.34670406579971313,
+            0.016807375475764275,
+            0.027320891618728638,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.47999998927116394,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_Ninja_Mechanics",
+          "color": [
+            0.008568125776946545,
+            0.008568125776946545,
+            0.012286487966775894,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.6000000238418579,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_Ninja_Shell",
+          "color": [
+            0.022173885256052017,
+            0.022173885256052017,
+            0.03071344457566738,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.5099999904632568,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_Ninja_Lights",
+          "color": [
+            1.0,
+            0.06847816705703735,
+            0.01599629409611225,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.3799999952316284,
+          "texture": ""
+        },
+        {
+          "name": "EYE_Ninja",
+          "color": [
+            1.0,
+            0.4507857859134674,
+            0.024157632142305374,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.3799999952316284,
+          "texture": "EYE_Ninja.png"
+        },
+        {
+          "name": "MAT_Spark_Ninja_Trim",
+          "color": [
+            0.07036009430885315,
+            0.05448027700185776,
+            0.0666259378194809,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.5,
+          "texture": ""
+        }
+      ],
+      "hidden": [
+        "Spark_Eye",
+        "Spark_Eye_Highlight",
+        "Spark_Eye_IdleChevron"
+      ]
+    },
+    {
+      "name": "king",
+      "materials": [
+        {
+          "name": "MAT_Spark_King_Accent",
+          "color": [
+            0.1946178376674652,
+            0.022173885256052017,
+            0.04373503103852272,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.47999998927116394,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_King_Shell",
+          "color": [
+            0.8631572127342224,
+            0.7605245113372803,
+            0.5972017645835876,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.5099999904632568,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_King_Mechanics",
+          "color": [
+            0.04373503103852272,
+            0.023153366521000862,
+            0.02955683507025242,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.6000000238418579,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_King_Trim",
+          "color": [
+            0.672443151473999,
+            0.366252601146698,
+            0.05951123684644699,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.5,
+          "texture": ""
+        },
+        {
+          "name": "MAT_Spark_King_Lights",
+          "color": [
+            1.0,
+            0.6104955673217773,
+            0.05448027700185776,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.3799999952316284,
+          "texture": ""
+        },
+        {
+          "name": "EYE_King",
+          "color": [
+            1.0,
+            0.4507857859134674,
+            0.024157632142305374,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.3799999952316284,
+          "texture": "EYE_King.png"
+        },
+        {
+          "name": "MAT_Spark_King_Screen",
+          "color": [
+            0.014443843625485897,
+            0.011612244881689548,
+            0.016807375475764275,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.23000000417232513,
+          "texture": ""
+        }
+      ],
+      "hidden": [
+        "Spark_Eye",
+        "Spark_Eye_Highlight",
+        "Spark_Eye_IdleChevron"
+      ]
+    }
+  ]
+}
